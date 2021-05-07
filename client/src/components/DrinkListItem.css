@@ -1,0 +1,27 @@
+.drinklistitem {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.drinklistitem__content {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: flex-start;
+    margin-left: 2em;
+    flex-grow: 1;
+}
+
+.drinklistitem__content > * {
+    margin: 0;
+}
+
+.drinklistitem__title {
+    color: orange;
+}
+
+.drinklistitem__thumb {
+    width: 150px;
+    border-radius: 5px;
+}
